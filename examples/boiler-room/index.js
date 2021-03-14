@@ -23,19 +23,7 @@ var scenes = {
   boilerRoom2: {
     image: 'boiler-room-2.png',
     preview: 'boiler-room-2-preview.png'
-  },
-  machuPicchu: {
-    image: 'machu-picchu.jpg',
-    preview: 'machu-picchu-preview.jpg'
-  },
-  chichenItza: {
-    image: 'chichen-itza.jpg',
-    preview: 'chichen-itza-preview.jpg'
-  },
-  tajMahal: {
-    image: 'taj-mahal.jpg',
-    preview: 'taj-mahal-preview.jpg'
-  },
+  }
 };
 
 function onLoad() {
