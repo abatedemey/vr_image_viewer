@@ -21,8 +21,8 @@ var scenes = {
     preview: 'sphericalStitchLightroom-preview.jpg'
   },
   christTheRedeemer: {
-    image: 'christ-redeemer.jpg',
-    preview: 'christ-redeemer-preview.jpg'
+    image: 'boiler-room-2.png',
+    preview: 'boiler-room-2-preview.png'
   },
   machuPicchu: {
     image: 'machu-picchu.jpg',
