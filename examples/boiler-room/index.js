@@ -89,7 +89,7 @@ function onVRViewReady(e) {
     });
   }
 
-  loadScene('machuPicchu');
+  loadScene('boilerRoom1');
 }
 
 function onModeChange(e) {
