@@ -16,11 +16,11 @@ var vrView;
 
 // All the scenes for the experience
 var scenes = {
-  boiler-room-1: {
+  boilerRoom1: {
     image: 'sphericalStitchLightroom.jpg',
     preview: 'sphericalStitchLightroom-preview.jpg'
   },
-  boiler-room-2: {
+  boilerRoom2: {
     image: 'boiler-room-2.png',
     preview: 'boiler-room-2-preview.png'
   },
@@ -42,7 +42,7 @@ function onLoad() {
   vrView = new VRView.Player('#vrview', {
     width: '100%',
     height: 480,
-    image: 'blank.jpg',
+    image: 'blank.png',
     is_stereo: false,
     is_autopan_off: true
   });
@@ -89,7 +89,7 @@ function onVRViewReady(e) {
     });
   }
 
-  loadScene('boiler-room-1');
+  loadScene('boilerRoom1');
 }
 
 function onModeChange(e) {
