@@ -16,14 +16,6 @@ var vrView;
 
 // All the scenes for the experience
 var scenes = {
-  boilerRoom1: {
-    image: 'sphericalStitchLightroom.jpg',
-    preview: 'sphericalStitchLightroom-preview.jpg'
-  },
-  boilerRoom2: {
-    image: 'boiler-room-2.png',
-    preview: 'boiler-room-2-preview.png'
-  },
   machuPicchu: {
     image: 'machu-picchu.jpg',
     preview: 'machu-picchu-preview.jpg'
@@ -89,7 +81,7 @@ function onVRViewReady(e) {
     });
   }
 
-  loadScene('boilerRoom1');
+  loadScene('machuPicchu');
 }
 
 function onModeChange(e) {
