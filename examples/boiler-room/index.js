@@ -31,7 +31,7 @@ var scenes = {
   boilerRoom4: {
     image: 'vantagePoint2.jpg',
     preview: 'vantagePoint2-preview.jpg'
-  }
+  },
 };
 
 function onLoad() {
