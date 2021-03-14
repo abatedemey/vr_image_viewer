@@ -16,11 +16,11 @@ var vrView;
 
 // All the scenes for the experience
 var scenes = {
-  petra: {
+  boiler-room-1: {
     image: 'sphericalStitchLightroom.jpg',
     preview: 'sphericalStitchLightroom-preview.jpg'
   },
-  christTheRedeemer: {
+  boiler-room-2: {
     image: 'boiler-room-2.png',
     preview: 'boiler-room-2-preview.png'
   },
@@ -89,7 +89,7 @@ function onVRViewReady(e) {
     });
   }
 
-  loadScene('petra');
+  loadScene('boiler-room-1');
 }
 
 function onModeChange(e) {
