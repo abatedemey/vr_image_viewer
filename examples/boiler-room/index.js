@@ -17,8 +17,8 @@ var vrView;
 // All the scenes for the experience
 var scenes = {
   petra: {
-    image: 'https://www.canadiannaturephotographer.com/sphericalpanoramas/_MG_8403-Panorama.jpg',
-    preview: 'https://www.canadiannaturephotographer.com/sphericalpanoramas/_MG_8403-Panorama.jpg'
+    image: 'sphericalStitchLightroom.png',
+    preview: 'sphericalStitchLightroom-preview.png'
   },
   christTheRedeemer: {
     image: 'christ-redeemer.jpg',
