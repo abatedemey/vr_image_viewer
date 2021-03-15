@@ -21,14 +21,10 @@ var scenes = {
     preview: 'sphericalStitchLightroom-preview.jpg'
   },
   boilerRoom2: {
-    image: 'boiler-room-2.png',
-    preview: 'boiler-room-2-preview.png'
-  },
-  boilerRoom3: {
     image: 'vantagePoint1.jpg',
     preview: 'vantagePoint1-preview.jpg'
   },
-  boilerRoom4: {
+  boilerRoom3: {
     image: 'vantagePoint2.jpg',
     preview: 'vantagePoint2-preview.jpg'
   },
