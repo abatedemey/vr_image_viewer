@@ -20,6 +20,10 @@ var scenes = {
     image: 'flxbotCamera1.jpg',
     preview: 'flxbotCamera1-preview.jpg'
   },
+  FLXBOTBoilerRoom2: {
+    image: 'flxbotCamera2.jpg',
+    preview: 'flxbotCamera2-preview.jpg'
+  },
   iPhoneBoilerRoom1: {
     image: 'sphericalStitchLightroom.jpg',
     preview: 'sphericalStitchLightroom-preview.jpg'
@@ -85,7 +89,7 @@ function onVRViewReady(e) {
     });
   }
 
-  loadScene('iPhoneBoilerRoom1');
+  loadScene('FLXBOTBoilerRoom1');
 }
 
 function onModeChange(e) {
