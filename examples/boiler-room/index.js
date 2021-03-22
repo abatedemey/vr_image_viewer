@@ -16,11 +16,11 @@ var vrView;
 
 // All the scenes for the experience
 var scenes = {
-  FLXBOTBoilerRoom1: {
+  robotBoilerRoom1: {
     image: 'flxbotCamera1.jpg',
     preview: 'flxbotCamera1-preview.jpg'
   },
-  FLXBOTBoilerRoom2: {
+  robotBoilerRoom2: {
     image: 'flxbotCamera2.jpg',
     preview: 'flxbotCamera2-preview.jpg'
   },
@@ -89,7 +89,7 @@ function onVRViewReady(e) {
     });
   }
 
-  loadScene('FLXBOTBoilerRoom1');
+  loadScene('robotBoilerRoom1');
 }
 
 function onModeChange(e) {
